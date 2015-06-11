@@ -1,0 +1,678 @@
+/*--------------------------------------------*/
+/* web text
+/*--------------------------------------------*/
+.webtext{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	min-width: 320px;
+	text-align: left;
+	text-rendering: optimizeLegibility;
+	overflow: scroll;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: normal;
+	line-height: 1.8;
+	color: #000;
+	background: #fff;
+}
+
+/*--------------------------------------------*/
+/* style name
+/*--------------------------------------------*/
+.webtext .style_name{
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #F3A330;
+	margin-bottom: 15px;
+}
+
+/*--------------------------------------------*/
+/* basic element
+/*--------------------------------------------*/
+.webtext em{
+	font-weight: bold;
+}
+.webtext strong{
+	font-weight: bold;
+}
+
+/*--------------------------------------------*/
+/* teacher note
+/*--------------------------------------------*/
+.webtext .teacher_note{
+	color: #f00;
+}
+
+/*--------------------------------------------*/
+/* t_color
+/*--------------------------------------------*/
+.webtext .t_color{
+	color: #0868ac;
+}
+
+/*-------------------------------------------*/
+/* directions
+/*-------------------------------------------*/
+.webtext .directions{
+	margin-bottom: 30px;
+	text-align: left;
+	font-weight: normal;
+}
+
+/*-------------------------------------------*/
+/* figure
+/*-------------------------------------------*/
+.webtext .figure{
+	width: 30%;
+	min-width: 200px;
+}
+.webtext .figure img{
+	width: 100%;
+}
+.webtext .figure.fr{
+	margin: 0 0 10px 10px;
+}
+.webtext .figure.fl{
+	margin: 0 10px 10px 0;
+}
+
+/*-------------------------------------------*/
+/* t_blank
+/*-------------------------------------------*/
+.webtext .t_blank{
+	display: inline-block;
+	min-width: 5em;
+	border-bottom: 1px solid #000;
+}
+
+/*-------------------------------------------*/
+/* box_1
+/*-------------------------------------------*/
+.webtext .box_1{
+	display: block;
+	border: 2px solid #000;
+	padding: 10px 15px;
+	margin-bottom: 50px;
+}
+
+/*-------------------------------------------*/
+/* wt_page_start
+/*-------------------------------------------*/
+.wt_page_start{
+	height: 0px;
+}
+
+/*-------------------------------------------*/
+/* wt_page_end
+/*-------------------------------------------*/
+.wt_page_end{
+	position: relative;
+	border-bottom: 1px solid #ccc;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+.wt_page_end span{
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+	text-align: right;
+	display: inline-block;
+	padding: 0 5px;
+	background: #fff;
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+.wt_page_end:last-child{
+	border: none;
+}
+
+/*-------------------------------------------*/
+/* wt_header
+/*-------------------------------------------*/
+.webtext .wt_header {
+	position: relative;
+	border: 5px solid #000;
+	padding: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.webtext .wt_header h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 0;
+	font-size: 1.5rem;
+	background: #000;
+	color: #fff;
+}
+.webtext .wt_header h2 {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	color: #000;
+	font-size: 30px;
+	font-size: 3.0rem;
+}
+.webtext .wt_header p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	font-size: 2.0rem;
+	color: #000;
+}
+
+/*-------------------------------------------*/
+/* wt_ttl_1
+/*-------------------------------------------*/
+.webtext .wt_ttl_1{
+	display: inline-block;
+	font-size: 24px;
+	color: #fff;
+	background: #000;
+	min-width: 280px;
+	padding: 5px 20px;
+	border-radius: 4px;
+	text-align: center;
+	margin: 0 0 30px;
+}
+
+/*-------------------------------------------*/
+/* wt_ttl_2
+/*-------------------------------------------*/
+.webtext .wt_ttl_2 {
+	font-size: 24px;
+	color: #fff;
+	background: #000;
+	padding: 5px 15px;
+	margin: 0 0 30px;
+}
+
+/*-------------------------------------------*/
+/* wt_style_1
+/*-------------------------------------------*/
+.webtext .wt_style_1{
+	text-align: center;
+}
+/*.webtext .wt_style_1 h3{
+	/*display: inline-block;
+	font-size: 24px;
+	color: #fff;
+	background: #000;
+	min-width: 280px;
+	padding: 5px 20px;
+	border-radius: 4px;
+	text-align: center;
+	margin: 0 0 30px;
+}*/
+.webtext .wt_style_1 dl{
+	padding: 0;
+	margin: 0 0 40px;
+}
+.webtext .wt_style_1 dl dt{
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0;
+	margin: 15px 0 5px;
+}
+.webtext .wt_style_1 dl dt:first-child{
+	padding: 0;
+}
+.webtext .wt_style_1 dl dt > :first-child{
+	margin-top: 0;
+}
+.webtext .wt_style_1 dl dt > :last-child{
+	margin-bottom: 0;
+}
+.webtext .wt_style_1 dl dd{
+	margin: 0 0 15px;
+	padding: 0 15px;
+}
+.webtext .wt_style_1 dl dd > :first-child{
+	margin-top: 0;
+}
+.webtext .wt_style_1 dl dd > :last-child{
+	margin-bottom: 0;
+}
+
+/*-------------------------------------------*/
+/* wt_style_2
+/*-------------------------------------------*/
+.webtext .wt_style_2 dl dt{
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1.2;
+	margin: 0;
+	padding: 0;
+}
+.webtext .wt_style_2 dl dd{
+	margin: 0 0 15px;
+	padding: 0;
+	font-weight: normal;
+}
+.webtext .wt_style_2 dl dd + dd{
+	text-align: right;
+	font-weight: bold;
+}
+
+/*-------------------------------------------*/
+/* wt_style_3
+/*-------------------------------------------*/
+.webtext .wt_style_3{
+	border: dotted 1px #000;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+.webtext .wt_style_3 table{
+	width: 100%;
+	font-weight: normal;
+}
+.webtext .wt_style_3 caption{
+	padding-left: 15px;
+	text-indent: -15px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+.webtext .wt_style_3 caption:before{
+	position: relative;
+	font-family: 'fontAwesome';
+	content: '\f0da';
+	font-size: 20px;
+	vertical-align: middle;
+	top: -1px;
+	margin-right: 10px;
+}
+.webtext .wt_style_3 table th,
+.webtext .wt_style_3 table td{
+	vertical-align: top;
+}
+.webtext .wt_style_3 table th{
+	position: relative;
+	font-weight: normal;
+	white-space: nowrap;
+	padding-right: 20px;
+}
+.webtext .wt_style_3 table td{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.webtext .wt_style_3 table th:after{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 5px;
+	display: inline-block;
+	content: ':';
+}
+.webtext .wt_style_3 table tr:last-child td{
+	padding-bottom: 0;
+}
+
+/*-------------------------------------------*/
+/* wt_style_4
+/*-------------------------------------------*/
+.webtext .wt_style_4{
+	margin: 15px auto 15px;
+	text-align: center;
+}
+.webtext .wt_style_4 ul{
+	display: table;
+	margin: 0 auto;
+	table-layout: fixed;
+}
+.webtext .wt_style_4 ul li{
+	display: table-cell;
+	vertical-align: top;
+	/*width: 33.3%;*/
+}
+.webtext .wt_style_4 ul li img{
+	display: block;
+	width: 100%;
+	max-width: 300px;
+	margin-bottom: 10px;
+}
+.webtext .wt_style_4 ul li p{
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 1.5;
+}
+
+/*-------------------------------------------*/
+/* wt_style_5
+/*-------------------------------------------*/
+.webtext .wt_style_5{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.webtext .wt_style_5 table{
+	margin: 0 auto;
+}
+.webtext .wt_style_5 table th,
+.webtext .wt_style_5 table td{
+	font-weight: normal;
+	padding: 10px;
+	text-align: left;
+}
+
+/*-------------------------------------------*/
+/* wt_style_6
+/*-------------------------------------------*/
+.webtext .wt_style_6 h3{
+	text-align: left;
+}
+.webtext .wt_style_6 h3 em{
+	position: relative;
+	font-size: 18px;
+	background: #fff;
+	padding: 0 10px 0 0;
+	z-index: 1;
+}
+.webtext .wt_style_6 h3:after{
+	content: '';
+	display: block;
+	position: relative;
+	top: -20px;
+	border-bottom: 3px dotted #000;
+}
+
+/*-------------------------------------------*/
+/* wt_style_7
+/*-------------------------------------------*/
+.webtext .wt_style_7{
+	border: dotted 1px #000;
+	padding: 20px;
+	margin-bottom: 50px;
+	font-weight: normal;
+}
+.webtext .wt_style_7 table{
+	width: 100%;
+}
+.webtext .wt_style_7 table td{
+	padding: 5px 0;
+}
+.webtext .wt_style_7 table .thumb{
+	width: 30%;
+	vertical-align: top;
+	padding-right: 20px;
+}
+.webtext .wt_style_7 table .thumb img{
+	width: 100%;
+}
+.webtext .wt_style_7 table td table th,
+.webtext .wt_style_7 table td table td{
+	vertical-align: top;
+}
+.webtext .wt_style_7 table td table th{
+	position: relative;
+	font-weight: normal;
+	white-space: nowrap;
+	padding-right: 20px;
+}
+.webtext .wt_style_7 table td table td{
+	width: 100%;
+}
+.webtext .wt_style_7 table td table th:after{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 5px;
+	display: inline-block;
+	content: ':';
+}
+
+/*-------------------------------------------*/
+/* wt_style_8
+/*-------------------------------------------*/
+.webtext .wt_style_8{
+	border: 1px solid #000;
+	padding: 10px 20px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.webtext .wt_style_8 h3{
+	text-align: center;
+}
+.webtext .wt_style_8 h3 em{
+	position: relative;
+	font-size: 18px;
+	background: #fff;
+	padding: 0 10px 0 10px;
+	z-index: 1;
+}
+.webtext .wt_style_8 h3:after{
+	content: '';
+	display: block;
+	position: relative;
+	top: -20px;
+	border-bottom: 3px dotted #000;
+}
+
+/*-------------------------------------------*/
+/* wt_style_9
+/*-------------------------------------------*/
+.webtext .wt_style_9 table{
+	width: 100%;
+	margin: 0 auto;
+}
+.webtext .wt_style_9 img{
+	display: block;
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+/*-------------------------------------------*/
+/* wt_style_10
+/*-------------------------------------------*/
+.webtext .wt_style_10{
+	margin: 0 auto 30px;
+	text-align: left;
+}
+.webtext .wt_style_10 li{
+	font-weight: bold;
+	font-size: 20px;
+	font-size: 2.0rem;
+	margin-top: 20px;
+}
+.webtext .wt_style_10 ol li{
+	list-style-type: decimal;
+}
+.webtext .wt_style_10 li:first-child{
+	margin-top: 0;
+}
+
+/*-------------------------------------------*/
+/* wt_style_11
+/*-------------------------------------------*/
+.webtext .wt_style_11{
+	margin: 0 auto 30px;
+}
+.webtext .wt_style_11 table{
+	display: table;
+	table-layout: fixed;
+}
+.webtext .wt_style_11 td{
+	vertical-align: top;
+	width: 33.3%;
+}
+.webtext .wt_style_11 td:first-child{
+	padding-right: 3%;
+}
+.webtext .wt_style_11 td img{
+	width: 100%;
+}
+
+/*-------------------------------------------*/
+/* wt_style_11-2
+/*-------------------------------------------*/
+.webtext .wt_style_11-2{
+	margin: 0 auto 30px;
+}
+.webtext .wt_style_11-2 table{
+	display: table;
+	table-layout: fixed;
+}
+.webtext .wt_style_11-2 td{
+	vertical-align: top;
+	width: 50%;
+}
+.webtext .wt_style_11 td:first-child{
+	padding-right: 3%;
+}
+.webtext .wt_style_11-2 td img{
+	width: 100%;
+}
+
+/*-------------------------------------------*/
+/* wt_style_12
+/*-------------------------------------------*/
+.webtext .wt_style_12{
+	text-align: center;
+	margin-bottom: 30px;
+}
+/*.webtext .wt_style_12 h3{
+	display: inline-block;
+	font-size: 24px;
+	color: #fff;
+	background: #000;
+	min-width: 280px;
+	padding: 5px 20px;
+	border-radius: 4px;
+	text-align: center;
+	margin: 0 0 30px;
+}*/
+.webtext .wt_style_12 .words{
+	font-size: 26px;
+	font-size: 2.6rem;
+	font-weight: bold;
+}
+.webtext .wt_style_12 dl{
+	display: table;
+	width: 100%;
+	text-align: left;
+	margin: 0 0 20px;
+}
+.webtext .wt_style_12 dl dt,
+.webtext .wt_style_12 dl dd{
+	display: table-cell;
+	vertical-align: top;
+}
+.webtext .wt_style_12 dl dt{
+	white-space: nowrap;
+	font-size: 20px;
+	font-size: 2.0rem;
+	font-weight: bold;
+}
+.webtext .wt_style_12 dl dt:after{
+	content: '…';
+	margin: 0 0.5em;
+}
+.webtext .wt_style_12 dl dd{
+	width: 100%;
+}
+
+/*-------------------------------------------*/
+/* wt_style_13
+/*-------------------------------------------*/
+.webtext .wt_style_13{
+	text-align: center;
+	margin: 0 0 30px;
+}
+.webtext .wt_style_13 table{
+	width: 100%;
+	text-align: left;
+}
+.webtext .wt_style_13 th,
+.webtext .wt_style_13 td{
+	vertical-align: top;
+	padding-bottom: 20px;
+}
+.webtext .wt_style_13 tr:last-child th,
+.webtext .wt_style_13 tr:last-child td{
+	padding-bottom: 0;
+}
+.webtext .wt_style_13 th{
+	white-space: nowrap;
+	font-size: 24px;
+	font-size: 2.4rem;
+	font-weight: bold;
+}
+.webtext .wt_style_13 td{
+	width: 100%;
+	font-weight: bold;
+	padding-left: 30px;
+}
+
+/*-------------------------------------------*/
+/* wt_style_14
+/*-------------------------------------------*/
+.webtext .wt_style_14{
+	margin: 0 auto 30px;
+	text-align: left;
+}
+.webtext .wt_style_14 li{
+	margin-top: 20px;
+}
+.webtext .wt_style_14 ol li{
+	list-style-type: decimal;
+}
+.webtext .wt_style_14 li:first-child{
+	margin-top: 0;
+}
+
+/*-------------------------------------------*/
+/* wt_style_15
+/*-------------------------------------------*/
+.webtext .wt_style_15{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.webtext .wt_style_15 dl{
+	display: table;
+	width: 100%;
+	text-align: left;
+	margin: 0 0 20px;
+}
+.webtext .wt_style_15 dl dt,
+.webtext .wt_style_15 dl dd{
+	display: table-cell;
+	vertical-align: top;
+}
+.webtext .wt_style_15 dl dt{
+	white-space: nowrap;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+.webtext .wt_style_15 dl dt:after{
+	content: '…';
+	margin: 0 0.5em;
+}
+.webtext .wt_style_15 dl dd{
+	width: 100%;
+}
+
+/*-------------------------------------------*/
+/* wt_style_16
+/*-------------------------------------------*/
+/*.webtext .wt_style_16 table tr{
+	display: block;
+	margin-bottom: 20px;
+}*/
+.webtext .wt_style_16 table th,
+.webtext .wt_style_16 table td{
+	vertical-align: top;
+}
+.webtext .wt_style_16 table th:first-child,
+.webtext .wt_style_16 table td:first-child{
+	/*white-space: nowrap;*/
+	padding-right: 10px;
+	display: block;
+}
